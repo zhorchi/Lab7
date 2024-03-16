@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string-array name="string_array">
+        <item>Screwdriver</item>
+        <item>Wrench</item>
+        <item>Hammer</item>
+        <item>Pliers</item>
+        <item>Saw</item>
+        <item>Tape measure</item>
+        <item>Level</item>
+        <item>Drill</item>
+        <item>Scissors</item>
+        <item>Knife</item>
+        <item>Ladder</item>
+        <item>Crowbar</item>
+        <item>Shovel</item>
+        <item>Rake</item>
+        <item>Broom</item>
+        <item>Mop</item>
+        <item>Bucket</item>
+        <item>Toolbox</item>
+        <item>Flashlight</item>
+        <item>Work gloves</item>
+        <item>Safety glasses</item>
+    </string-array>
+
+    <string name="registration">Registration</string>
+
+    <string name="full_name">Full name</string>
+    <string name="full_name_hint">Enter full name</string>
+
+    <string name="login">Login</string>
+    <string name="login_hint">Enter login</string>
+
+    <string name="email">E-mail</string>
+    <string name="email_hint">Enter e-mail</string>
+
+    <string name="phone">Phone number</string>
+    <string name="phone_hint">Enter phone number</string>
+
+    <string name="password">Password</string>
+    <string name="password_hint">Enter password</string>
+    <string name="repeat_password_hint">Repeat password</string>
+
+    <string name="birth_date">Birth date</string>
+    <string name="birth_date_hint">Enter birth date</string>
+
+    <string name="item_from_list">Choose item from list</string>
+
+    <string name="agreement">I agree to the processing of personal data</string>
+
+    <string name="close">Close</string>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лабораторная работа 7</string>
+    <string-array name="string_array">
+        <item>Отвертка</item>
+        <item>Гайковерт</item>
+        <item>Молоток</item>
+        <item>Плоскогубцы</item>
+        <item>Пила</item>
+        <item>Рулетка</item>
+        <item>Уровень</item>
+        <item>Дрель</item>
+        <item>Ножницы</item>
+        <item>Нож</item>
+        <item>Лестница</item>
+        <item>Лом</item>
+        <item>Лопата</item>
+        <item>Грабли</item>
+        <item>Веник</item>
+        <item>Швабра</item>
+        <item>Ведро</item>
+        <item>Ящик для инструментов</item>
+        <item>Фонарик</item>
+        <item>Рабочие перчатки</item>
+        <item>Защитные очки</item>
+    </string-array>
+    <string name="registration">Регистрация</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/full_name"
+            android:autofillHints="name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/login"
+            android:autofillHints="username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_hint"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="34sp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:autofillHints="emailAddress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:autofillHints="phone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_hint"
+            android:imeOptions="actionNext"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="34sp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:autofillHints="password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/repeat_password"
+            android:autofillHints="password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/repeat_password_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_date"
+            android:textSize="34sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="@string/birth_date_hint"
+                android:id="@+id/birth_date"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="date" />
+            <Button
+                android:onClick="onButtonClick"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/ic_menu_today"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_from_list" />
+
+        <Spinner
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/agreement_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agreement" />
+    </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/birth_date_picker"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </DatePicker>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/close_button"
+        android:onClick="onCloseButtonClick"
+        android:text="@string/close"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/birth_date_picker"
+        android:layout_alignEnd="@id/birth_date_picker"
+        android:backgroundTint="#ffffffff"
+        android:layout_marginEnd="3dp"/>
+
+</RelativeLayout>

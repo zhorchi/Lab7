@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab7</string>
+    <string-array name="string_array">
+        <item>Tuốc nơ vít</item>
+        <item>Cờ lê</item>
+        <item>Búa</item>
+        <item>Kìm</item>
+        <item>Cưa</item>
+        <item>Thước dây</item>
+        <item>Lively</item>
+        <item>Máy khoan</item>
+        <item>Kéo</item>
+        <item>Dao</item>
+        <item>Thang</item>
+        <item>Xà beng</item>
+        <item>Xẻng</item>
+        <item>Cào</item>
+        <item>Chổi quét nhà</item>
+        <item>Cây lau nhà</item>
+        <item>Xô</item>
+        <item>Hộp dụng cụ</item>
+        <item>Đèn pin</item>
+        <item>Găng tay làm việc</item>
+        <item>Kính bảo hộ</item>
+    </string-array>
+    <string name="registration">Đăng ký</string>
+</resources>
