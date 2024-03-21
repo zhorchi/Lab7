@@ -25,4 +25,29 @@
         <item>Защитные очки</item>
     </string-array>
     <string name="registration">Регистрация</string>
+
+    <string name="full_name">Полное имя</string>
+    <string name="full_name_hint">Введите ФИО</string>
+
+    <string name="login">Логин</string>
+    <string name="login_hint">Введите логин</string>
+
+    <string name="email">E-mail</string>
+    <string name="email_hint">Введите e-mail</string>
+
+    <string name="phone">Телефон</string>
+    <string name="phone_hint">Введите номер телефона</string>
+
+    <string name="password">Пароль</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="repeat_password_hint">Повторите пароль</string>
+
+    <string name="birth_date">Дата рождения</string>
+    <string name="birth_date_hint">Введите дату рождения</string>
+
+    <string name="item_from_list">Выберите элемент из списка</string>
+
+    <string name="agreement">Я даю согласие на обработку персональных данных</string>
+
+    <string name="close">Закрыть</string>
 </resources>

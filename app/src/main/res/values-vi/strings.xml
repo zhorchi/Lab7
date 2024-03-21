@@ -24,5 +24,38 @@
         <item>Găng tay làm việc</item>
         <item>Kính bảo hộ</item>
     </string-array>
+
     <string name="registration">Đăng ký</string>
+
+    <string name="full_name">Họ và tên</string>
+
+    <string name="full_name_hint">Nhập họ và tên</string>
+
+    <string name="login">Tên đăng nhập</string>
+
+    <string name="login_hint">Nhập tên đăng nhập</string>
+
+    <string name="email">Email</string>
+
+    <string name="email_hint">Nhập email</string>
+
+    <string name="phone">Số điện thoại</string>
+
+    <string name="phone_hint">Nhập số điện thoại</string>
+
+    <string name="password">Mật khẩu</string>
+
+    <string name="password_hint">Nhập mật khẩu</string>
+
+    <string name="repeat_password_hint">Nhập lại mật khẩu</string>
+
+    <string name="birth_date">Ngày sinh</string>
+
+    <string name="birth_date_hint">Nhập ngày sinh</string>
+
+    <string name="item_from_list">Chọn mục từ danh sách</string>
+
+    <string name="agreement">Tôi đồng ý với việc xử lý dữ liệu cá nhân</string>
+
+    <string name="close">Đóng</string>
 </resources>

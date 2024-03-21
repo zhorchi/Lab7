@@ -104,7 +104,7 @@
             android:text="@string/birth_date"
             android:textSize="34sp" />
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <EditText
                 android:hint="@string/birth_date_hint"
